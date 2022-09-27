@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Wishing Well</title>
-    <script defer src="./assets/index.js"></script>
+    <title>The Wishes</title>
+    <script defer src="./assets/wishes.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,17 +16,11 @@
   </head>
   <body>
     <div class="intro">
-      <h1>The Wishing Well</h1>
-      <h2>Where you can submit wishes and vote to have them met.</h2>
-      <a href="./wishes.html">✨See all wishes here✨</a>
+      <h1>What we are wishing for currently...</h1>
+      <ol id="wishList"></ol>
+      <form>
+        <input type="button" value="Go back!" onclick="history.back()" />
+      </form>
     </div>
-
-    <form id="createForm" class="intro">
-      <input id="wish" type="text" name="Wish" placeholder="Wish" />
-      <input id="author" type="text" name="Author" placeholder="Author" />
-      <input type="submit" value="Send" />
-    </form>
-
-    <h3 class="emoji">🧙‍♀️🧹🐈‍⬛🌙</h3>
   </body>
 </html>

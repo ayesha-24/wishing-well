@@ -1,0 +1,25 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: rgb(164, 193, 247);
+}
+
+.intro {
+  background-color: antiquewhite;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 50px;
+}
+
+a:hover {
+  text-shadow: 3px;
+  background-color: aliceblue;
+}
