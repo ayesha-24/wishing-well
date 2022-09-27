@@ -2,15 +2,15 @@
 
 - This app will allow you to cast and vote for wishes.
 
-## Installation
+# Installation
 
 - Make sure you have Node & NPM installed.
 - Run npm install -D from the server/ folder to install all required packages.
 
-##Development
+#Development
 
 - Run npm run dev to start the development server.
 
-##Production
+#Production
 
 - Run npm run start to start the development server.
